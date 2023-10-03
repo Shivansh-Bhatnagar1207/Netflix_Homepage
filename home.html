@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>Netflix India-Watch TV Shows online, Watch Movies Online</title>
+    <link
+      rel="shortcut icon"
+      href="resources/title_logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="resources/Netflix.css" />
+    <script src="Netflix.js"></script>
+  </head>
+  <body>
+    <div class="vignette">
+      <nav class="navbar">
+        <div class="nav_left">
+          <img src="resources/logo_main.png" alt="Netflix" height="60" />
+          <a href="#">Home</a>
+          <a href="#">TV shows</a>
+          <a href="#">Movies</a>
+          <a href="#">New & Popular</a>
+          <a href="#">My list</a>
+          <a href="#">Browse by Languages</a>
+        </div>
+        <div class="nav_right">
+          <span class="material-symbols-outlined"> search </span>
+          <span class="material-symbols-outlined">notifications</span>
+          Kids
+          <div class="box"></div>
+          <select name="profile" id="profile">
+            <option value=""></option>
+            <option value="main">Hello!, User😃</option>
+            <option value="guest">Welcome, Guest😌</option>
+          </select>
+        </div>
+      </nav>
+
+      <section class="main_show_info">
+        <img src="resources/heading.png" alt="My happy Marriage" height="100" />
+        <h2>#1 in Animated Shows Today</h2>
+        <div class="para">
+          <p>
+            Misery seems everlasting in Miyo Saimori's life. Born into an
+            arranged marriage, she was quickly discarded after her mother's
+            tragic death. Her father remarried, and her younger half-sister Kaya
+            received all the affection, while Miyo was degraded to a lowly
+            servant. Lacking the strength to fight against her family's abuse,
+            Miyo loses hope that her luck will ever turn. Unexpectedly, Miyo's
+            father summons her to deliver surprising news: she is to marry
+            Kiyoka Kudou, the head of the distinguished Kudou family. Despite
+            his noble background, Kiyoka is known to be a callous man who has
+            thus far dismissed all of his former fiancées. Upon arriving at the
+            Kudou household, Miyo expects coarse treatment and to be tossed
+            aside. However, contrary to her assumptions, Kiyoka shows her the
+            kindness and love that she has desperately needed. Marrying Kiyoka
+            may be Miyo's one chance to break free from her neglectful family
+            and embrace a life of happiness
+          </p>
+        </div>
+        <button id="play">
+          <i class="fa-solid fa-play" style="color: #000000"></i> Play
+        </button>
+        <button id="more_info">
+          <span
+            class="material-symbols-outlined"
+            style="color: white; font-size: 22px"
+            >info</span
+          >
+          More Info
+        </button>
+      </section>
+      <section class="popular">
+        <h3>Popular on Netflix</h3>
+        <div class="cards">
+          <div class="card" id="one"></div>
+          <div class="card" id="two"></div>
+          <div class="card" id="three"></div>
+          <div class="card" id="four"></div>
+          <div class="card" id="five"></div>
+          <div class="card" id="six"></div>
+          <div class="card" id="seven"></div>
+          <div class="card" id="eight"></div>
+          <div class="card" id="nine"></div>
+          <div class="card" id="ten"></div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
