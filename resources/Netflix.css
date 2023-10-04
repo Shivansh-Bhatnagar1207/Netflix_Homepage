@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  margin: none;
+}
+
+::-webkit-scrollbar {
+  width: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #525252;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #333;
+}
+
+body {
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 10;
+}
+
+a:visited {
+  color: white;
+}
+
+a:focus {
+  font-weight: normal;
+}
+
+select {
+  aspect-ratio: 1;
+  width: 20px;
+  background: transparent;
+  color: black;
+  font-weight: 30px;
+  border: transparent;
+}
+
+.vignette {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+    url(background.jpg);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navbar .nav_left {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  float: left;
+}
+
+.navbar .nav_right {
+  float: right;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.navbar .nav_right .box {
+  aspect-ratio: 1;
+  height: 20px;
+  background-color: white;
+}
+
+.main_show_info {
+  position: absolute;
+  margin: 0px;
+  top: 8em;
+  left: 3rem;
+  height: 330px;
+  width: 500px;
+  overflow: auto;
+}
+
+.para p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+#play {
+  font-size: x-large;
+  font-weight: bold;
+  background-color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+#more_info {
+  font-size: x-large;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.popular {
+  height: 30vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 0vh;
+  overflow: hidden;
+  padding-left: 2px;
+}
+
+.cards {
+  display: flex;
+  overflow-x: auto;
+}
+.cards .card {
+  aspect-ratio: 16/9;
+  margin: 10px;
+}
+
+#one {
+  background-image: url(b99.png);
+  background-size: cover;
+  height: 15vh;
+}
+
+#two {
+  background-image: url(card2.jpg);
+  background-size: cover;
+  height: 15vh;
+}
+#three {
+  background-image: url(card3.jpg);
+  background-size: cover;
+  height: 15vh;
+}
+#four {
+  background-image: url(card4.png);
+  background-size: cover;
+  height: 15vh;
+}
+#five {
+  background-image: url(card5.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 15vh;
+}
+#six {
+  background-image: url(card6.jpg);
+  background-size: cover;
+  height: 15vh;
+}
+#seven {
+  background-image: url(card7.jpeg);
+  background-size: cover;
+  height: 15vh;
+}
+#eight {
+  background-image: url(card8.jpg);
+  background-size: cover;
+  height: 15vh;
+}
+#nine {
+  background-image: url(card9.jpeg);
+  background-size: cover;
+  height: 15vh;
+}
+#ten {
+  background-image: url(card10.jpeg);
+  background-size: cover;
+  height: 15vh;
+}
